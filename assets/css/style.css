@@ -238,6 +238,7 @@ body {
     padding-top: 2em;
     font-weight: 900;
     transform: rotateY(180deg);
+    border-radius: 10px;
 }
 
 .flip-card-back h2 {
@@ -524,5 +525,8 @@ input, textarea {
 
     .tl-item:before {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #161616 75%);
+    }
+    .flip-card-back h2{
+        font-size: 3em;
     }
 }
